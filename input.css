@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-sm font-light bg-light text-primary overflow-x-hidden scroll-smooth;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mobile-responsive {
+  @apply w-full ss:w-[70%] sm:w-[50%] md:w-[45%] lg:w-[35%];
+}
+
+.popup-show {
+  @apply scale-100;
+}
+
+.link-underline {
+  @apply transition ease-in-out hover:underline;
+}
+
+.input-outline-success {
+  @apply outline-none border-[1px] border-success;
+}
+
+.input-outline-primary {
+  @apply outline-none border-[1px] border-primary;
+}
+
+.input-error {
+  @apply outline-none border-[1px] border-red-500;
+}
+
+.input-success {
+  @apply outline-none border-[1px] border-success;
+}
+
+.input {
+  @apply outline-none border-[1px] border-dark;
+}
+
+.link-underline {
+  @apply transition ease-in-out hover:underline;
+}
+
+.border-default-success {
+    @apply border-[1px] border-success;
+}
+
+.border-default {
+    @apply border-[1px] border-secondary;
+}
+
+.button-outline-primary {
+  @apply border-[1px] border-primary;
+}
+
+.button-success {
+    @apply bg-success border-[1px] border-success text-light bg-opacity-100 transition ease-in-out hover:bg-opacity-90;
+}
+
+.button {
+    @apply bg-primary border-[1px] border-primary text-light bg-opacity-100 transition ease-in-out hover:bg-opacity-90;
+}
+
+.primary-button {
+    @apply bg-primary text-light px-3 py-1.5 rounded-md bg-opacity-85 transition ease-in-out hover:bg-opacity-100;
+}
+
+.flex-evenly-end {
+  @apply flex justify-evenly items-end;
+}
+
+.flex-between-center {
+  @apply flex justify-between items-center;
+}
+
+.flex-center {
+    @apply flex justify-center items-center;
+}
+
+.flex-items {
+    @apply flex items-center;
+}
+
+.flex-justify {
+    @apply flex justify-center;
+}
+
+.text-limit-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.text-limit-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hidden-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.popup-animation {
+  animation: popup .2s ease-in-out;
+}
+
+@keyframes popup {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

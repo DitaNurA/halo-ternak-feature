@@ -1,0 +1,30 @@
+CRITICAL - 2024-08-30 07:23:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "peternak/hewan/detail-ternak-sakit.php"
+[Method: GET, Route: peternak/hewan/detail/ternak-sakit]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peternak/hewan/detail-ternak-sakit.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('peternak/hewan/detail-ternak-sakit', [], true)
+ 3 APPPATH\Controllers\HewanTernak.php(44): view('peternak/hewan/detail-ternak-sakit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HewanTernak->detail_ternak_sakit()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HewanTernak))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+CRITICAL - 2024-08-30 07:29:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "components/order-layanan.php"
+[Method: GET, Route: peternak/hewan/detail/ternak-sakit]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/order-layanan.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('components/order-layanan', [], true)
+ 3 APPPATH\Views\peternak\hewan\detail-ternak-sakit.php(12): view('components/order-layanan', [...])
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\app\\Views\\peternak\\hewan\\detail-ternak-sakit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('peternak/hewan/detail-ternak-sakit', [], true)
+ 7 APPPATH\Controllers\HewanTernak.php(44): view('peternak/hewan/detail-ternak-sakit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HewanTernak->detail_ternak_sakit()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HewanTernak))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')

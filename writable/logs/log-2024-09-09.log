@@ -1,0 +1,914 @@
+INFO - 2024-09-09 07:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 07:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 07:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-09 07:51:19 --> ParseError: syntax error, unexpected token "use", expecting "class"
+[Method: GET, Route: login]
+in APPPATH\Controllers\Auth.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\app\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Auth', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+CRITICAL - 2024-09-09 07:52:04 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: login]
+in APPPATH\Controllers\Auth.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\app\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Auth', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+INFO - 2024-09-09 07:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 07:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 07:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 07:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-09 07:59:50 --> Error: Class "App\Models\PeternakModel" not found
+[Method: POST, Route: login]
+in APPPATH\Controllers\Auth.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login_process()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+INFO - 2024-09-09 07:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 07:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-09 08:00:10 --> Error: Class "App\Models\PeternakModel" not found
+[Method: POST, Route: login]
+in APPPATH\Controllers\Auth.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login_process()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+CRITICAL - 2024-09-09 08:00:43 --> Error: Class "App\Models\PeternakModel" not found
+[Method: POST, Route: login]
+in APPPATH\Controllers\Auth.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login_process()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+CRITICAL - 2024-09-09 08:00:52 --> Error: Class "App\Models\PetugasModel" not found
+[Method: POST, Route: login]
+in APPPATH\Controllers\Auth.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login_process()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+CRITICAL - 2024-09-09 08:01:11 --> Error: Class "App\Models\PetugasModel" not found
+[Method: POST, Route: login]
+in APPPATH\Controllers\Auth.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login_process()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+INFO - 2024-09-09 08:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-09 08:09:35 --> ErrorException: Attempt to read property "password" on array
+[Method: POST, Route: login]
+in APPPATH\Controllers\Auth.php on line 37.
+ 1 APPPATH\Controllers\Auth.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\app\\Controllers\\Auth.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login_process()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+CRITICAL - 2024-09-09 08:10:23 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: login]
+in APPPATH\Controllers\Auth.php on line 37.
+ 1 APPPATH\Controllers\Auth.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\app\\Controllers\\Auth.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login_process()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+INFO - 2024-09-09 08:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-09 08:11:36 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: login]
+in APPPATH\Controllers\Auth.php on line 39.
+ 1 APPPATH\Controllers\Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\app\\Controllers\\Auth.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login_process()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+INFO - 2024-09-09 08:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-09 08:12:00 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: login]
+in APPPATH\Controllers\Auth.php on line 39.
+ 1 APPPATH\Controllers\Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\app\\Controllers\\Auth.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login_process()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+INFO - 2024-09-09 08:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 08:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-09 08:19:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id_admin`),
+	CONSTRAINT `admin_id_user_foreign` FOREIGN KEY (`...' at line 8 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060840_Admin.php(46): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Admin->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-09 08:20:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id_admin`),
+	CONSTRAINT `admin_id_user_foreign` FOREIGN KEY (`...' at line 8 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060840_Admin.php(46): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Admin->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-09 08:21:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id_admin`),
+	CONSTRAINT `admin_id_user_foreign` FOREIGN KEY (`...' at line 8 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060840_Admin.php(46): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Admin->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-09 08:22:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id_user`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_...' at line 4 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060839_User.php(25): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\User->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-09 08:22:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id_admin`),
+	CONSTRAINT `admin_id_user_foreign` FOREIGN KEY (`...' at line 8 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060840_Admin.php(46): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Admin->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-09 08:22:52 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`admin` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060840_Admin.php(46): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Admin->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-09 08:23:43 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`admin` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060840_Admin.php(46): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Admin->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-09 08:25:47 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`admin` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060840_Admin.php(46): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Admin->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-09 08:26:12 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`admin` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060840_Admin.php(46): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Admin->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-09 08:26:59 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`admin` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060840_Admin.php(46): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Admin->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-09 08:27:05 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`admin` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060840_Admin.php(46): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Admin->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:27:40 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`hewan_ternak` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `h...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `h...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `h...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `h...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060944_HewanTernak.php(54): CodeIgniter\Database\Forge->createTable('hewan_ternak')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\HewanTernak->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:29:32 --> mysqli_sql_exception: Table 'user' already exists in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060820_User.php(25): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\User->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:29:47 --> mysqli_sql_exception: Table 'user' already exists in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060820_User.php(25): CodeIgniter\Database\Forge->createTable('user')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\User->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:30:29 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`hewan_ternak` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `h...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `h...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `h...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `h...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060944_HewanTernak.php(54): CodeIgniter\Database\Forge->createTable('hewan_ternak')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\HewanTernak->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:31:39 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`jenis_ternak` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `j...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `j...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `j...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `j...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060930_JenisTernak.php(30): CodeIgniter\Database\Forge->createTable('jenis_ternak')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\JenisTernak->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:32:31 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`jenis_ternak` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `j...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `j...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `j...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `j...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060930_JenisTernak.php(30): CodeIgniter\Database\Forge->createTable('jenis_ternak')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\JenisTernak->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:33:06 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`admin` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060840_Admin.php(46): CodeIgniter\Database\Forge->createTable('admin')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Admin->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:33:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id_kandang_ternak`),
+	CONSTRAINT `kandang_ternak_id_ternak_for...' at line 11 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061046_KandangTernak.php(55): CodeIgniter\Database\Forge->createTable('kandang_ternak')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KandangTernak->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:33:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`id_kondisi` INT(15) NOT NULL,
+	`keterangan` VARCHAR(50) NOT NULL,...' at line 10 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(67): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:35:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`id_kondisi` INT(15) NOT NULL,
+	`keterangan` VARCHAR(50) NOT NULL,...' at line 10 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(72): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:36:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`id_kondisi` INT(15) NOT NULL,
+	`keterangan` VARCHAR(50) NOT NULL,...' at line 10 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(72): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:37:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`id_kondisi` INT(15) NOT NULL,
+	`keterangan` VARCHAR(50) NOT NULL,...' at line 10 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(72): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:39:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`id_kondisi` INT(15) NOT NULL,
+	`keterangan` VARCHAR(50) NOT NULL,...' at line 10 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(72): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:40:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`id_kondisi` INT(15) NOT NULL,
+	`keterangan` VARCHAR(50) NOT NULL,...' at line 10 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(72): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:40:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`id_kondisi` INT(15) NOT NULL,
+	`keterangan` VARCHAR(50) NOT NULL,...' at line 10 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(72): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:41:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`id_kondisi` INT(15) NOT NULL,
+	`keterangan` VARCHAR(50) NOT NULL,...' at line 10 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(73): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:42:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`id_kondisi` INT(15) UNSIGNED NOT NULL,
+	`keterangan` VARCHAR(50) ...' at line 10 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(74): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:43:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`keterangan` VARCHAR(50) NOT NULL,
+	`foto` VARCHAR(50) NOT NULL,
+	...' at line 10 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(74): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:43:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`id_kondisi` INT(15) UNSIGNED NOT NULL,
+	CONSTRAINT `pk_keterangan...' at line 10 in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(74): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:43:43 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`keterangan_petugas` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(74): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:44:00 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`keterangan_petugas` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(74): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:45:02 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`keterangan_petugas` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(74): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:45:20 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`keterangan_petugas` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(74): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 08:45:41 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`keterangan_petugas` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(74): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 09:07:57 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`keterangan_petugas` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(74): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 09:08:56 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`keterangan_petugas` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(74): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 09:09:07 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`keterangan_petugas` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061128_KeteranganPetugas.php(74): CodeIgniter\Database\Forge->createTable('keterangan_petu...')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\KeteranganPetugas->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 09:11:20 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`kondisi` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-060810_Kondisi.php(31): CodeIgniter\Database\Forge->createTable('kondisi')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Kondisi->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2024-09-09 09:12:12 --> mysqli_sql_exception: Can't create table `halo_ternak_ci`.`kondisi` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp3\htdocs\tubanweb\halo-ternak\app\Database\Migrations\2024-08-16-061110_Kondisi.php(31): CodeIgniter\Database\Forge->createTable('kondisi')
+#5 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(867): App\Database\Migrations\Kondisi->up()
+#6 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp3\htdocs\tubanweb\halo-ternak\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#14 C:\xampp3\htdocs\tubanweb\halo-ternak\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp3\htdocs\tubanweb\halo-ternak\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}

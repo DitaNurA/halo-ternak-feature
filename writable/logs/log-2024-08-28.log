@@ -1,0 +1,17 @@
+CRITICAL - 2024-08-28 05:43:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "components/peternak/kandang-ternak.php"
+[Method: GET, Route: peternak/profil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/peternak/kandang-ternak.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('components/peternak/kandang-ternak', [], true)
+ 3 APPPATH\Views\peternak\profile\index.php(38): view('components/peternak/kandang-ternak')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\app\\Views\\peternak\\profile\\index.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('peternak/profile/index', [], true)
+ 7 APPPATH\Controllers\Peternak.php(20): view('peternak/profile/index')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Peternak->profil()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peternak))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')

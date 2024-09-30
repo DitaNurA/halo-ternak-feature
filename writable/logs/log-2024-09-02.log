@@ -1,0 +1,75 @@
+CRITICAL - 2024-09-02 06:45:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "map/01.php"
+[Method: GET, Route: peternak/maps/01]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('map/01.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('map/01', [], true)
+ 3 APPPATH\Controllers\Peternak.php(37): view('map/01', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Peternak->map_01()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peternak))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+CRITICAL - 2024-09-02 06:45:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "peternak/map/01.php"
+[Method: GET, Route: peternak/maps/01]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peternak/map/01.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('peternak/map/01', [], true)
+ 3 APPPATH\Controllers\Peternak.php(37): view('peternak/map/01', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Peternak->map_01()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peternak))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+CRITICAL - 2024-09-02 06:45:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "peternak/map/1.php"
+[Method: GET, Route: peternak/maps/01]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peternak/map/1.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('peternak/map/1', [], true)
+ 3 APPPATH\Controllers\Peternak.php(37): view('peternak/map/1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Peternak->map_01()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peternak))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+CRITICAL - 2024-09-02 06:46:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "peternak/map/01.php"
+[Method: GET, Route: peternak/maps/01]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peternak/map/01.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('peternak/map/01', [], true)
+ 3 APPPATH\Controllers\Peternak.php(37): view('peternak/map/01', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Peternak->map_01()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peternak))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+CRITICAL - 2024-09-02 07:42:35 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::{closure}(), 0 passed in C:\xampp3\htdocs\tubanweb\halo-ternak\system\CodeIgniter.php on line 877 and exactly 1 expected
+[Method: GET, Route: layanan]
+in APPPATH\Config\Routes.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection::{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')
+CRITICAL - 2024-09-02 07:43:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layanan/sucecss.php"
+[Method: GET, Route: layanan/success]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layanan/sucecss.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('layanan/sucecss', [], true)
+ 3 APPPATH\Controllers\Layanan.php(25): view('layanan/sucecss', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Layanan->success()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp3\\htdocs\\tubanweb\\halo-ternak\\public\\index.php')

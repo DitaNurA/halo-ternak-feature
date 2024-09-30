@@ -1,0 +1,22 @@
+<div class="<?= $popupClass; ?> popup-container w-full h-screen fixed top-0 left-0 z-10 flex justify-center hidden">
+    <div class="mobile-responsive h-full relative flex-items p-12">
+        <div class="popup-card w-full bg-light border-[1px] border-success p-4 rounded-xl flex-items gap-3 relative z-[1]">
+            <button class="popup-btn-close absolute top-2 right-3" data-target="<?= $popupClass; ?>">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6 text-primary">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+            </button>
+    
+            <div>
+                <img src="/assets/images/dummy/sapi.png" alt="" class="w-80">
+            </div>
+            <div>
+                <h1 class="text-base font-medium">PT SAPI DESA PALANG</h1>
+                <h1 class="mt-1 font-medium">Alamat</h1>
+                <p class="mt-1.5 font-normal text-xs">Ds. Palang, Kec. Palang, 
+                Kab. Tuban</p>
+            </div>
+        </div>
+        <div class="popup-before w-full h-full bg-black bg-opacity-50 absolute top-0 left-0"></div>
+    </div>
+</div>
