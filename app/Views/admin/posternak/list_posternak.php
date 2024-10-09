@@ -19,7 +19,7 @@
         <?php endfor; ?>
     </div>
 </div>
-<?= $this->include('components/overlay/overlay'); ?>
+<?= $this->include('admin/components/overlay/overlay'); ?>
 <script src="<?= base_url('assets/js/jquery.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/detail-button.js'); ?>"></script>
 <?= $this->endSection(); ?>

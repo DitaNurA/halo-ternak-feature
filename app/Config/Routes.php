@@ -131,3 +131,5 @@ $routes->get('admin/edukasi/detail/(:num)', 'Admin\Edukasi::detail/$1');
 $routes->post('admin/edukasi/update/(:num)', 'Admin\Edukasi::update/$1');
 
 $routes->get('admin/kotak-saran', 'Admin\KotakSaran::index');
+$routes->get('/posternak', 'Admin\PostinganTernak::index');
+$routes->get('/detail_posternak', 'Admin\PostinganTernak::detail');

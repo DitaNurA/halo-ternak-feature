@@ -1,7 +1,7 @@
 <!-- app/Views/admin/posternak/show_detailternak.php -->
 <?= $this->section('show_detailternak'); ?>
 <div class="w-full max-w-md mx-auto bg-blue-50 p-6 rounded-xl shadow-lg text-blue-500 border border-green-500 mt-8">
-    <form action="<?= base_url('posternak/save') ?>" method="post">
+    <form action="<?= base_url('') ?>" method="post">
         <?= csrf_field() ?>
         <div class="mb-4">
             <label class="block mb-2">Gambar Ternak</label>

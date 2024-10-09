@@ -16,13 +16,13 @@
         </header>
         <main>
             <div class="container mx-auto p-4" id="main-content">
-                <?= $this->include('components/judul'); ?>
+                <?= $this->include('admin/components/judul'); ?>
                 <?= $this->renderSection('show_detailternak'); ?>
                 
             </div>
         </main>
         <footer>
-            <?= $this->include('components/footer/footer'); ?>
+            <?= $this->include('admin/components/footer/footer'); ?>
         </footer>
         <?= $this->renderSection('script'); ?>
 

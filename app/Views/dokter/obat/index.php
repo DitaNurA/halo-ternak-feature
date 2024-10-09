@@ -1,4 +1,3 @@
-<!-- app/Views/admin/petugas/petugas.php -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,30 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?=base_url('/assets/css/style.css') ?>">
-    <title>Data Postingan Ternak</title>
-    <?= $this->renderSection('style'); ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Obat</title>
 </head>
 
 <body class="bg-gray-100 font-poppins flex justify-center items-center h-screen">
     <div class="max-w-md w-full bg-white shadow-lg overflow-y-auto h-screen">
+
         <header>
-            <?= $this->include('components/header/navbar'); ?>
+            <?= $this->include('dokter/dokter_components/header/navbar'); ?>
         </header>
         <main>
-            <div class="container mx-auto p-4 mt-8" id="main-content">
-                <?= $this->include('admin/components/judul'); ?>
-                <?= $this->include('admin/components/toolbar'); ?>
-                <?= $this->renderSection('list_posternak'); ?>
-                
+            <div class="container mx-auto p-4">
+                <?= $this->include('components/judul'); ?>
+                <?= $this->renderSection('c_listobat'); ?>
+                <?= $this->include('components/pagination/pageslide'); ?>
             </div>
         </main>
+        
         <footer>
-        <?= $this->include('components/paginate'); ?>
-        <div>
-            <?= $this->include('admin/components/footer/footer'); ?>
-</div>
+            <?= $this->include('components/footer/footer'); ?>
         </footer>
-        <?= $this->renderSection('script'); ?>
+
     </div>
     <script>
     // Set the title of the page to the h2 tag
